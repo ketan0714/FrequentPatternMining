@@ -1,0 +1,7 @@
+experiment,transactions,distinct_items,avg_txn_length,min_support,min_count,buckets,algorithm,repeats,mean_time_s,sd_time_s,peak_mem_mb,n_frequent,n_passes,c2_before_hash,c2_after_hash,identical_to_apriori
+support,5000,194,11.3,0.02,100,,Apriori,1,0.119,0,1.076,1188,4,,,
+support,5000,194,11.3,0.02,100,20011,DHP (hash only),1,0.129,0,0.991,1188,4,0,0,True
+support,5000,194,11.3,0.02,100,20011,DHP (hash + trim),1,0.213,0,1.501,1188,4,0,0,True
+support,5000,194,11.3,0.01,50,,Apriori,1,0.411,0,3.053,4369,5,,,
+support,5000,194,11.3,0.01,50,20011,DHP (hash only),1,0.462,0,2.277,4369,5,0,0,True
+support,5000,194,11.3,0.01,50,20011,DHP (hash + trim),1,0.525,0,3.269,4369,5,0,0,True

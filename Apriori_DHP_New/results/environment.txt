@@ -1,0 +1,4 @@
+Python 3.x; synthetic dataset seed 2026; single timing run per configuration.
+Execution time measured with time.perf_counter(); peak memory measured separately with tracemalloc after loading data.
+Benchmark scope is a curated subset: 2k/5k/10k size sweep, 5k support sweep at 2% and 1%, 5k bucket sweep at 997/4999/20011.
+Correctness startup self-test passed on a 200-transaction sample against brute force. Full 20k sweep was not completed.

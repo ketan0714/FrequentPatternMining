@@ -1,0 +1,5 @@
+transactions,distinct_items_observed,avg_transaction_length,item_universe,seed
+2000,190,11.25,200,2026
+5000,194,11.3,200,2026
+10000,198,11.32,200,2026
+20000,198,11.31,200,2026

@@ -1,0 +1,7 @@
+experiment,transactions,distinct_items,avg_txn_length,min_support,min_count,buckets,algorithm,repeats,mean_time_s,sd_time_s,peak_mem_mb,n_frequent,n_passes,c2_before_hash,c2_after_hash,identical_to_apriori
+buckets,5000,194,11.3,0.01,50,997,DHP (hash only),1,0.496,0,3.078,4369,5,12403,12397,True
+buckets,5000,194,11.3,0.01,50,997,DHP (hash + trim),1,0.612,0,4.034,4369,5,12403,12397,True
+buckets,5000,194,11.3,0.01,50,4999,DHP (hash only),1,0.458,0,2.624,4369,5,12403,6854,True
+buckets,5000,194,11.3,0.01,50,4999,DHP (hash + trim),1,0.559,0,3.575,4369,5,12403,6854,True
+buckets,5000,194,11.3,0.01,50,20011,DHP (hash only),1,0.549,0,2.277,4369,5,12403,2200,True
+buckets,5000,194,11.3,0.01,50,20011,DHP (hash + trim),1,0.551,0,3.269,4369,5,12403,2200,True
